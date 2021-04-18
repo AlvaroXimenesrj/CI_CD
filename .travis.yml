@@ -6,3 +6,10 @@ dotnet:  5.0.200
 script:
 - dotnet restore
 - dotnet build
+notifications:
+ email:
+    recipients:
+    - alvaroximenesrj@gmail.com
+    - alvarocamargorj2018@gmail.com
+    on_success: always
+    on_failure: always
