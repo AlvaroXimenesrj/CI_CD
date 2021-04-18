@@ -1,6 +1,6 @@
 language: csharp
-dist: trusty
-sudo: required
+#dist: trusty
+sudo: false
 mono: none
 dotnet:  5.0.200
 script:
